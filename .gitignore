@@ -1,0 +1,36 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules (ignore for both frontend and backend)
+node_modules/
+
+# Build directories (ignore dist folders in any directory)
+dist/
+dist-ssr/
+
+# Local environment files
+*.local
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore any specific Frontend and Backend build outputs or sensitive files if needed
+Visualisations/build/
+backend/build/
