@@ -8,6 +8,18 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules/
+Visualisations/node_modules/
+Visualisations/.cache/
+Visualisations/.next/
+Visualisations/.nuxt/
+Visualisations/dist/
+Visualisations/build/
+Visualisations/.serverless/
+Visualisations/serverless/
+Visualisations/.serverless_plugins/
+Visualisations/.webpack/
+Visualisations/.parcel-cache/
+
 
 backend/node_modules/
 backend/dist/
